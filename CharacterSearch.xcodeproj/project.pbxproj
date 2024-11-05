@@ -56,6 +56,7 @@
 		43DB0D8F2CD9F20100CF1B9C /* RMSettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0D8E2CD9F20100CF1B9C /* RMSettingsViewViewModel.swift */; };
 		43DB0D912CD9F27D00CF1B9C /* RMSettingsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0D902CD9F27D00CF1B9C /* RMSettingsCellViewModel.swift */; };
 		43DB0D932CD9F35700CF1B9C /* RMSettingsOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0D922CD9F35700CF1B9C /* RMSettingsOption.swift */; };
+		43DB0D962CD9F80200CF1B9C /* RMSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DB0D952CD9F80200CF1B9C /* RMSettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +111,7 @@
 		43DB0D8E2CD9F20100CF1B9C /* RMSettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewViewModel.swift; sourceTree = "<group>"; };
 		43DB0D902CD9F27D00CF1B9C /* RMSettingsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsCellViewModel.swift; sourceTree = "<group>"; };
 		43DB0D922CD9F35700CF1B9C /* RMSettingsOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsOption.swift; sourceTree = "<group>"; };
+		43DB0D952CD9F80200CF1B9C /* RMSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 		436CFC0529B32DD900B75A3C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				43DB0D942CD9F7D500CF1B9C /* SwiftUI */,
 				43DB0D882CD8B27B00CF1B9C /* EpisodeDetails */,
 				4371B61A2C1AEBA500603EFB /* Episode */,
 				43BA005A2AC806A20006E6AC /* CharacterDetails */,
@@ -340,6 +343,14 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		43DB0D942CD9F7D500CF1B9C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				43DB0D952CD9F80200CF1B9C /* RMSettingsView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -436,6 +447,7 @@
 				436CFBF029B32AF000B75A3C /* AppDelegate.swift in Sources */,
 				436CFBF229B32AF000B75A3C /* SceneDelegate.swift in Sources */,
 				43DB0D912CD9F27D00CF1B9C /* RMSettingsCellViewModel.swift in Sources */,
+				43DB0D962CD9F80200CF1B9C /* RMSettingsView.swift in Sources */,
 				43BA005D2AC822330006E6AC /* RMCharacterPhotoCollectionViewCell.swift in Sources */,
 				43BA00682AC8233B0006E6AC /* RMCharacterEpisodeCollectionViewCellViewModel.swift in Sources */,
 				436CFC1829B3302C00B75A3C /* RMSettingsViewController.swift in Sources */,
