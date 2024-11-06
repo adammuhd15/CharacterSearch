@@ -16,6 +16,25 @@ enum RMSettingsOption: CaseIterable {
     case viewSeries
     case viewCode
     
+    var targetUrl: URL? {
+        switch self {
+        case .rateApp:
+            return nil
+        case .contactUs:
+            return URL(string: "https://www.canva.com/")
+        case .terms:
+            return URL(string: "https://www.canva.com/policies/terms-of-use/")
+        case .privacy:
+            return URL(string: "https://www.canva.com/policies/privacy-policy/")
+        case .apiReference:
+            return URL(string: "https://rickandmortyapi.com/documentation/")
+        case .viewSeries:
+            return URL(string: "https://www.youtube.com/@MarcoThePhoenixx/videos")
+        case .viewCode:
+            return URL(string: "https://github.com/adammuhd15/SushiShop")
+        }
+    }
+    
     var displayTitle: String {
         switch self {
         case .rateApp:
